@@ -1,0 +1,14 @@
+name: Final CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Success Step
+        run: echo "CI/CD SUCCESS"
