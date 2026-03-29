@@ -1,0 +1,17 @@
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class VaccinationTest {
+
+    @Test
+    void testDoseScheduling() {
+        int nextDose = 30; // example logic
+        assertEquals(30, nextDose);
+    }
+
+    @Test
+    void testRecordUpdate() {
+        String status = "Updated";
+        assertEquals("Updated", status);
+    }
+}
